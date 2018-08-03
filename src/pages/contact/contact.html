@@ -7,11 +7,28 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-grid>
+
+    <ion-row>
+      <ion-col>
+        1 of 2
+      </ion-col>
+      <ion-col>
+        2 of 2
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div style="border: 1px black solid">1 of 3</div>
+      </ion-col>
+      <ion-col col-6>
+          <div style="border: 1px black solid">2 of 3</div>
+      </ion-col>
+      <ion-col offset-2>
+          <div style="border: 1px black solid">3 of 3</div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
 </ion-content>
